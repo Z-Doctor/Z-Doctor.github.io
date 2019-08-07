@@ -12,7 +12,8 @@ body {
     background-color: rgb(20, 5, 7);
     background-image: url("assets/oni/home.png");
     background-origin: padding-box;
-    background-position: -300px 0;
+    background-attachment: fixed;
+    background-position: left;
     background-repeat: no-repeat;
 }
 
