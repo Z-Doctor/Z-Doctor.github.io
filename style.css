@@ -12,9 +12,21 @@ body {
     background-color: rgb(20, 5, 7);
     background-image: url("assets/oni/home.png");
     background-origin: padding-box;
-    background-attachment: fixed;
-    background-position: left;
+    background-attachment: local;
     background-repeat: no-repeat;
+    background-position: -22rem 10rem;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-position: -20rem 0;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-position: -20rem 0;
+    }
 }
 
 * {
