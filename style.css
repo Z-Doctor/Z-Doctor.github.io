@@ -1,0 +1,41 @@
+#cover {
+    position: fixed; 
+    height: 100%; 
+    width: 100%; 
+    top:0; 
+    left: 0; 
+    background: rgb(255, 255, 255); 
+    z-index:9999;
+}
+
+body {
+    /*background-image: url("assets/oni/logo.png"), url("assets/oni/home.png");*/
+    background-image: url("assets/oni/home.png");
+    /*background-size: 594px 309px;*/
+    background-color: rgb(20, 5, 7);
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+img.k-anim {
+    object-fit: none;
+    object-position: 0px 0px;
+}
+
+.itemcard > .card {
+    padding: 0 0%;
+    margin: 0 0%;
+}
+
+.no-clip {
+    overflow: hidden;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
