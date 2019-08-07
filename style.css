@@ -11,13 +11,42 @@
 body {
     background-color: rgb(20, 5, 7);
     background-image: url("assets/oni/home.png");
-    background-position: 25% 0;
+    background-origin: padding-box;
+    background-position: -300px 0;
     background-repeat: no-repeat;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.extra-top-margin {
+    margin-top: 10%;
 }
 
 img.k-anim {
     object-fit: none;
     object-position: 0px 0px;
+}
+
+.btn-primary {
+    background-color: rgb(135, 69, 102);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-color: white;
+    border-width: 2px;
+
+    
+}
+
+.btn-primary:hover {
+    background-color: rgb(157, 84, 121);
+    border-color: black;
+}
+
+.btn-secondary {
+    background-color: rgb(62, 67, 87);
 }
 
 .itemcard > .card {
