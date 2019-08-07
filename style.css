@@ -9,12 +9,10 @@
 }
 
 body {
-    /*background-image: url("assets/oni/logo.png"), url("assets/oni/home.png");*/
-    background-image: url("assets/oni/home.png");
-    /*background-size: 594px 309px;*/
     background-color: rgb(20, 5, 7);
+    background-image: url("assets/oni/home.png");
+    background-position: 25% 0;
     background-repeat: no-repeat;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 img.k-anim {
@@ -38,4 +36,3 @@ img.k-anim {
 .no-margin {
     margin: 0;
 }
-
